@@ -1,0 +1,20 @@
+#register-container {
+    width: 400px;
+    margin: 100px auto 0 auto;
+    text-align: center;
+    .captcha-wrapper {
+        display: flex;
+        justify-content: flex-end;
+        .send-mail-button {
+            margin-left: 10px;
+        }
+    }
+    .links {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .register-button {
+        width: 100%;
+    }
+}
