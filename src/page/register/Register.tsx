@@ -2,7 +2,6 @@ import { Button, Form, Input, message } from "antd";
 import { useForm } from "antd/es/form/Form";
 import './register.scss'
 import { register, registerCaptcha } from "../../interface/interface";
-import { useCallback } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
 export interface RegisterUser {
