@@ -5,7 +5,7 @@ import {  updatePassword, updatePasswordCaptcha } from "../../interface/interfac
 import { useNavigate } from "react-router-dom";
 import './update_password.scss'
 
-export interface UpdatePassword  {
+export interface UpdatePassword {
   username: string;
   email: string;
   captcha: string;
